@@ -1,11 +1,11 @@
 import pandas as pd
-
+import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
 
 # ========== НАСТРОЙКИ ==========
-TOKEN = "8533815960:AAH9XeR5wGFnttGQ5lxnqEYLDkHaWpCA3Y4"   # <-- вставь сюда свой токен
+TOKEN = "8533815960:AAEZ3J9VrPvtlOHSsN9sw6m2J5_j8AnsyhU"   # <-- вставь сюда свой токен
 FILE_PATH = "warehouse.xlsx"      # файл должен лежать рядом с agent.py
 
 REQUIRED_COLUMNS = {
